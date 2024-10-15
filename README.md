@@ -33,6 +33,14 @@ conn.onmessage = function(e) {
     console.log(e.data);
 };
 ```
+
+### Additional Resources
+
+For more details about how the WebSocket server is implemented, we are using the Ratchet PHP library. You can refer to the official Ratchet documentation for a basic setup guide:
+
+- [Ratchet Documentation: Hello World](http://socketo.me/docs/hello-world)
+
+
 ### What We Need
 
 We believe there might be an issue with the Apache server configuration related to handling SSL connections for WebSockets. We are looking for someone with experience in this area who can:
